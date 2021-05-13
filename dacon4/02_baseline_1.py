@@ -105,4 +105,4 @@ prediction = prediction * size + mini
 
 
 submission['answer'] = prediction.reshape([-1, 1])
-submission.to_csv('baseline_submission1.csv', index=False)
+submission.to_csv('./dacon4/data/baseline_submission1.csv', index=False)
